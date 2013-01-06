@@ -1,0 +1,49 @@
+<!DOCTYPE html 
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+	<title>Tu wpisz tytuł strony</title>
+</head>
+<body>
+
+	<form action="przetworzzamowienie.php" method="post">
+	<table border="0">
+		<tr bgcolor="#CCCCCC">
+			<td width="150">Produkt</td>
+			<td width="15">Ilość</td>
+		</tr>
+		<tr>
+			<td>Opony</td>
+			<td align="center"><input type="text" name="iloscopon" size="3" maxlength="3" /></td>
+		</tr>
+		<tr>
+			<td>Olej</td>
+			<td align="center"><input type="text" name="iloscoleju" size="3" maxlength="3" /></td>
+		</tr>
+		<tr>
+			<td>Świece Zapłonowe</td>
+			<td align="center"><input type="text" name="iloscswiec" size="3" maxlength="3" /></td>
+		</tr>
+		<!--<tr>
+			<td>Jak dowiedzieli się Państwo o sklepie Janka?</td>
+			<td><select name="jak">
+					<option value="a">Jestem stałym klientem</option>
+					<option value="b">Reklama telewizyjna</option>
+					<option value="c">Książka telefoniczna</option>
+					<option value="d">Znajomy</option>
+				</select>
+			</td>
+	</tr>-->
+		<tr>
+			<td>Adres</td>
+			<td align="center"><input type="text" name="adres" size="30" maxlength="60" /></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center"><input type="submit" value="Złóż Zamówienie" /></td>
+		</tr>		
+	</table>
+	</form>
+</body>
+</html>
